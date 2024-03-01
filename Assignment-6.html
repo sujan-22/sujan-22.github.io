@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    "
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="Navbar blur Navbar">
+      <a href="#home">
+        <img src="./images/logo.png" title="Reload" alt="logo" class="Logo" />
+      </a>
+
+      <div class="Hamburger" onclick="toggleMenu()">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+
+      <ul class="NavbarLinks" id="navLinks">
+        <li onclick="toggleMenu()">
+          <a href="#home"> <span class="AiOutlineHome"></span> Home </a>
+        </li>
+        <li onclick="toggleMenu()">
+          <a href="#about"></span> About </a>
+        </li>
+        <li onclick="toggleMenu()">
+          <a href="#projects"></span> Project </a>
+        </li>
+        <li onclick="toggleMenu()">
+          <a href="#resume"></span> Resume </a>
+        </li>
+        <li onclick="toggleMenu()">
+          <a href="#contact"></span> Contact </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <div>
+      <!-- Home Page -->
+      <div id="home" class="HomePage">
+        <div class="HomeText">
+          <h1 class="typed">
+            <!-- Rendered Typed component content here -->
+            <!-- You would need to manually insert the content of Typed component -->
+          </h1>
+          <h2>I'M <b>SUJAN ROKAD</b></h2>
+          <h2>Software Development student</h2>
+        </div>
+      </div>
+
+      <!-- About Page -->
+      <div id="about" class="AboutPage">
+        <div class="AboutText">
+          <h1 class="AboutTextHeading">Brief <b>introduction</b></h1>
+          <p>
+            Passionate about crafting elegant solutions to real-world problems,
+            I am on a journey to explore the limitless possibilities of software
+            development. With a keen interest in cutting-edge technologies and a
+            dedication to continuous learning, I am excited about the endless
+            opportunities the world of programming has to offer.
+            <br />
+            <br />
+            Born and raised in <b>India</b>, I completed my 12th grade education
+            there before moving to Hamilton, Ontario, Canada, to pursue higher
+            education.
+            <br />
+            <br />
+            Currently, I am focused on learning the<b> MERN stack</b>, and I
+            have done <b>Unity Game Development too</b>.
+            <br />
+            <br />
+            Also, I love <b>watching sci-fi movies</b> and participating in
+            competitive programming challenges on platforms like
+            <b>Codeforces</b> and <b>LeetCode</b>.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="skillPage">
+      <div class="skillText">
+        <h1 class="skillTextHeading">Professional <b>Skillset</b></h1>
+        <div class="skillColumns">
+          <div class="skillColumn">
+            <b>Java</b><br />
+            <b>C++</b><br />
+            <b>C#</b><br />
+            <b>.NET</b><br />
+            <b>Python</b><br />
+          </div>
+          <div class="skillColumn">
+            <b>JavaScript</b><br />
+            <b>PHP</b><br />
+            <b>React.js</b><br />
+            <b>Node.js</b><br />
+            <b>Express.js</b><br />
+            <b>Mongodb</b><br />
+            <b>MySQL</b><br />
+            <b>Unity Game Development</b><br />
+          </div>
+          <div class="skillColumn">
+            <b>HTML</b><br />
+            <b>CSS</b><br />
+            <b>Bootstrap</b><br />
+            <b>jQuery</b><br />
+            <b>Git</b><br />
+            <b>Github</b><br />
+            <b>Npm</b><br />
+            <b>Figma</b><br />
+            <b>WordPress</b><br />
+            <b>Linux</b><br />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Education Section -->
+    <div class="educationPage">
+      <div class="educationText">
+        <h1 class="educationTextHeading">Education</h1>
+        <p>
+          I am a second-year <b>Software Development</b> student pursuing a
+          program in
+          <b>Computer Systems Technology - Software Development</b> at Mohawk
+          College.
+          <br />
+          <br />I am currently enrolled in my <b>4th semester</b>, and actively
+          seeking a<b> co-op</b> opportunity to further enhance my skills and
+          apply my knowledge in real-world scenarios. <br /><br />
+          In my academic journey, I've developed a strong passion for coding,
+          particularly in languages such as <b>Java</b>, <b>C#</b> and
+          <b>C++</b>. I have undertaken various console app projects and
+          continuously seek opportunities to expand and enhance my skills.
+        </p>
+      </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div id="projects">
+      <h1 class="projectHeading">My <b>Projects</b></h1>
+      <div class="project">
+        <!-- projectBox 1 -->
+        <div class="projectBox">
+          <img
+            src="./images/ajaxresponder.png"
+            alt="Ajax Responder"
+            class="projectPhoto"
+          />
+          <h2 class="projectName">Web Page with AJAX Requests</h2>
+        </div>
+
+        <!-- projectBox 2 -->
+        <div class="projectBox">
+          <img
+            src="./images/gameofhangman.png"
+            alt="Game of Hangman"
+            class="projectPhoto"
+          />
+          <h2 class="projectName">Hangman Challenge</h2>
+        </div>
+
+        <!-- projectBox 3 -->
+        <div class="projectBox">
+          <img
+            src="./images/gameofnim.png"
+            alt="Game of Nim"
+            class="projectPhoto"
+          />
+          <h2 class="projectName">NIM Game Simulator</h2>
+        </div>
+
+        <!-- projectBox 4 -->
+        <div class="projectBox">
+          <img
+            src="./images/php2.png"
+            alt="Pokémon and Movies"
+            class="projectPhoto"
+          />
+          <h2 class="projectName">Pokémon and Movies</h2>
+        </div>
+
+        <!-- projectBox 5 -->
+        <div class="projectBox">
+          <img
+            src="./images/php4.png"
+            alt="InfiniteScroll Quotes Viewer"
+            class="projectPhoto"
+          />
+          <h2 class="projectName">InfiniteScroll Quotes Viewer</h2>
+        </div>
+
+        <!-- projectBox 6 -->
+        <div class="projectBox">
+          <img
+            src="./images/randomizeimage.png"
+            alt="Dynamic Image Gallery"
+            class="projectPhoto"
+          />
+          <h2 class="projectName">Dynamic Image Gallery</h2>
+        </div>
+
+        <!-- projectBox 7 -->
+        <div class="projectBox">
+          <img
+            src="./images/html-file-checker.png"
+            alt="HTML File Checker"
+            class="projectPhoto"
+          />
+          <h2 class="projectName">HTML File Checker</h2>
+        </div>
+      </div>
+    </div>
+
+    <div id="resume" class="ResumePage">
+      <div class="resumeTextHeading">Resume</div>
+      <div class="resumeText">
+      <!-- Download button -->
+      <a href="./documents/sujan_resume.pdf" download="sujan_resume.pdf">
+        <button class="downloadCV" type="button">
+          <h3>Download Resume</h3>
+        </button>
+      </a>
+      </div> 
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="contactPage">
+      <div class="contactText">
+        <h1 class="contactTextHeading">Contact Me</h1>
+        <p>Feel free to reach out!</p>
+        <div class="form-container">
+          <form class="form">
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="text"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required=""
+              />
+              <label for="message">Message</label>
+              <input
+                type="text"
+                id="message"
+                name="message"
+                placeholder="Enter your message"
+                required=""
+              />
+            </div>
+
+            <button class="form-submit-btn" type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <h4>Copyright &copy; 2024 SR</h4>
+      <div class="footerLinks">
+        <a href="mailto:sujan-vipulbhai.rokad@mohawkcollege.ca">
+          <p>Mail</p>
+        </a>
+        <a href="https://github.com/sujan-22">
+          <p>Github</p>
+        </a>
+      </div>
+    </footer>
+
+    <!-- JavaScript for mobile navigation toggle -->
+    <!-- JavaScript for mobile navigation toggle -->
+<script>
+  function toggleMenu() {
+    const navLinks = document.getElementById("navLinks");
+    navLinks.classList.toggle("active");
+  }
+</script>
+
+
+  </body>
+</html>
